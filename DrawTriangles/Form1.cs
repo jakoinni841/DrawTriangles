@@ -24,7 +24,6 @@ namespace DrawTriangles
         {
             Graphics formGraphics = this.CreateGraphics();
             Pen drawTri = new Pen(Color.Red, 3);
-
             DrawTriangle(drawTri, 200, 190, 230, 220, 180, 220);
         }
 
